@@ -1,0 +1,50 @@
+<link href="https://fonts.googleapis.com/css?family=Iceberg&display=swap" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="styles/styles.css">
+<html>
+<h1 id="title">Ice Cream Survey</h1>
+<div id="outer-container">
+  <p id="description">Welcome to my comprehensive survey of the ice cream preferences of humankind.</p>
+  <img id="sundae" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Ice_Cream_dessert_02.jpg/800px-Ice_Cream_dessert_02.jpg" alt="Decadent and elegant ice cream sundae">
+  <form action="" id="survey-form">
+    <label id="name-label">Name: </label>
+    <input type="text" id="name" placeholder="Name" required>
+    <label id="email-label">Email: </label>
+    <input type="email" id="email" placeholder="Email" required>
+    <label id="number-label">Age: </label>
+    <input type="number" id="number" min="0" max="99" placeholder="0 to 99">
+    <div id="yes">
+      <p>Do you enjoy ice cream?</p>
+      <div id="radio">
+      <label for="yes-no">Yes</label>
+      <input type="radio" name="yes" value="yes1">
+      <label for="yes-no">Yes</label>
+      <input type="radio" name="yes" value="yes2">
+        </div>
+      </div>
+    <label for="meal">What meal should be replaced wtih only ice cream?</label>
+    <select id="dropdown">
+     <option value="">--Pick a Meal--</option>
+     <option value="Option 1">Breakfast</option>
+     <option value="Option 2">Lunch</option>
+     <option value="Option 3">Dinner</option>
+    </select>
+    <div id="checkboxes">
+      <label for="flavours">What is your favourite flaour?</label>
+      <input type="checkbox" name="ice-cream" id="vanilla" value="flavour">
+      <label for="vanilla">Vanilla Bean</label>
+      <input type="checkbox" name="ice-cream" id="chocolate" value="flavour">
+      <label for="chocolate">Chocolate</label>
+      <input type="checkbox" name="ice-cream" id="strawberry" value="flavour" value="flavour">
+      <label for="strawberry">Strawberry</label>
+      <input type="checkbox" name="ice-cream" id="other" value="flavour">
+      <label for="other">Other</label>
+    </div>
+    <div id="comment-box">
+      <label for="comments">Share your comments!</label>
+      <textarea id="comments" rows="5" cols="33"></textarea>
+    </div>
+    <button id="submit">Submit</button>
+  </form>
+</div>
+
+</html>
